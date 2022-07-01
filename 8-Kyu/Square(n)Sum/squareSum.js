@@ -1,1 +1,1 @@
-const squareSum = numbers => numbers.reduce( ( acc, cur) => acc +( cur ** 2), 0);
+const squareSum = numbers => numbers.reduce( ( acc, value) => acc +(Math.pow(value,2)), 0);
